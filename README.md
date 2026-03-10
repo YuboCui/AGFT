@@ -44,4 +44,4 @@ The preparation of the dataset can refer to `torchvision.datasets`, with the def
 
 ### train TeCoA
 
-`CUDA_VISIBLE_DEVICES='1,0' OMP_NUM_THREADS=1 torchrun --nproc_per_node 2 main.py --method='TeCoA_FT' --use_float --enable_amp --time='1' --train_or_val --lr=1e-5`
+`CUDA_VISIBLE_DEVICES='1,0' OMP_NUM_THREADS=1 torchrun --nproc_per_node 2 main.py --method='TeCoA' --use_float --enable_amp --time='1' --train_or_val --lr=1e-5`
