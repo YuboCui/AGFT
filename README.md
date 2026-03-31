@@ -26,7 +26,7 @@
 
 ### install other packages
 
-`pip install -r requiremetns.txt`
+`pip install -r requirements.txt`
 
 ## Datasets
 
