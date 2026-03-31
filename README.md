@@ -45,3 +45,13 @@ The preparation of the dataset can refer to `torchvision.datasets`, with the def
 ### train TeCoA
 
 `CUDA_VISIBLE_DEVICES='1,0' OMP_NUM_THREADS=1 torchrun --nproc_per_node 2 main.py --method='TeCoA' --use_float --enable_amp --time='1' --train_or_val --lr=1e-5`
+
+## If you find this useful in your research, please cite this work:
+```
+@inproceedings{cui2026agft,
+  author = {Cui, Yubo and Guan, Xianchao and Xiong, Zijun and Zhang, Zheng},
+  title = {AGFT: Alignment-Guided Fine-Tuning for Zero-Shot Adversarial Robustness of Vision-Language Models},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year = {2026}
+}
+```
