@@ -36,7 +36,7 @@ The preparation of the dataset can refer to `torchvision.datasets`, with the def
 
 ### train AGFT
 
-`CUDA_VISIBLE_DEVICES='1,0' OMP_NUM_THREADS=1 torchrun --nproc_per_node 2 main.py --method='AGFT' --use_float --enable_amp --time='40_180_4' --train_or_val --method_args='{\"AGFT\": {\"logit_scale\": 180,\"scale_ratio\": 0.4}}' --lr=4e-4`
+`CUDA_VISIBLE_DEVICES='1,0' OMP_NUM_THREADS=1 torchrun --nproc_per_node 2 main.py --method='AGFT' --use_float --enable_amp --time='40_180_4' --train_or_val --method_args='{"AGFT": {"logit_scale": 180,"scale_ratio": 0.4}}' --lr=4e-4`
 
 ### validate on zero-shot datasets
 
