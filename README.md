@@ -9,7 +9,7 @@
     <strong>Zijun Xiong</strong></a>
     ·
     <strong>Zheng Zhang</strong></a>
-    <p align="center" margin-top="0px"><a href="https://arxiv.org">https://arxiv.org</a></p>
+    <p align="center" margin-top="0px"><a href="https://arxiv.org/abs/2603.29410">https://arxiv.org/abs/2603.29410</a></p>
 </p>
 
 ## Environment setup
