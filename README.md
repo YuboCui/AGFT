@@ -48,10 +48,12 @@ The preparation of the dataset can refer to `torchvision.datasets`, with the def
 
 ## If you find this useful in your research, please cite this work:
 ```
-@inproceedings{cui2026agft,
-  author = {Cui, Yubo and Guan, Xianchao and Xiong, Zijun and Zhang, Zheng},
-  title = {AGFT: Alignment-Guided Fine-Tuning for Zero-Shot Adversarial Robustness of Vision-Language Models},
-  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year = {2026}
+@InProceedings{Cui_2026_CVPR,
+    author    = {Cui, Yubo and Guan, Xianchao and Xiong, Zijun and Zhang, Zheng},
+    title     = {AGFT: Alignment-Guided Fine-Tuning for Zero-Shot Adversarial Robustness of Vision-Language Models},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {22836-22846}
 }
 ```
